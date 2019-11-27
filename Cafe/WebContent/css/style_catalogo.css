@@ -1,0 +1,102 @@
+body{
+    font-family: Comic Sans MS;
+    color: #472500 ;
+    background-color: #AB9A89 ;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 15px;
+}
+
+h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+h1#title{
+    text-align: center;
+    display: block;
+    background-color:rgb(171, 154, 137);
+ 
+}
+
+.subtitulo{
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+nav.navmenu{
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    border-top: dashed #472500;
+    border-bottom: dashed #472500;
+}
+
+#a{
+    display: inline;
+    padding-right: 50px;
+}
+
+a#menu_principal{
+    text-decoration: none !important;
+}
+
+a#menu_principal:link{
+    color: #472500;
+  }
+  
+  a#menu_principal:hover{
+      color: #ffffff
+  }
+  
+  a#menu_principal:visited{
+      color: #842416;
+  }
+  
+  a#menu_login:link {
+      color: #ffffff;
+  }  
+
+.container{
+    position: relative;
+ 
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.container .lista-imagem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.lista-imagem li{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.lista-imagem li img{
+    position: relative;
+}
+
+.container .lista-imagem li .container-image{
+    text-align: center;
+}
+
+.image-information{
+    margin-top: 20px;
+}

@@ -1,0 +1,120 @@
+body{
+    font-family: Comic Sans MS;
+    color: #472500 ;
+    background-color: #AB9A89 ;
+}
+
+/*Eu tive que setar os h's pq tava bugando o tamanho da fonte
+ela nao ficava do jeito q eu queria, provavelmente eu sou burro e preguicoso*/
+
+h1{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 15px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+/*Essa e a parte de cima, o login vai ate o l1.button*/
+
+nav.p-2{
+    position: absolute;
+}
+
+li#b{
+    
+    display: inline;
+    padding-left: 10px;
+    
+}
+
+li.button{
+    background-color: brown;
+}
+
+
+
+/*O titulo */
+
+h1#title{
+    text-align: center;
+    display: block;
+    background-color:rgb(171, 154, 137);
+
+}
+
+/*O subtitulo */
+
+div.subtitulo{
+    text-align: center;
+    margin-top: 28px;
+}
+
+/* Para colocar no meio a imagem, tive que usar essa tag bootstrap*/
+
+.justify-content-center{
+
+margin-top: 40px ;
+   
+}
+
+nav.navmenu{
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-top: dashed #472500;
+    border-bottom: dashed #472500;
+}
+
+#a{
+    display: inline;
+    padding-right: 50px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+a#menu_principal:link{
+  color: #472500;
+}
+
+a#menu_principal:hover{
+    color: #ffffff
+}
+
+a#menu_principal:visited{
+    color: #842416;
+}
+
+a#menu_login:link {
+    color: #ffffff;
+}
+
+div.texto{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+div.container-rodape{
+    padding-top: 70px;
+
+}
+
+div.texto{
+    padding-top: 20px;
+}
+
+
+
+
+

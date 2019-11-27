@@ -1,0 +1,80 @@
+  body {
+    background-color: #AB9A89;
+    font-family: "Comic Sans MS"
+  }
+
+  h1{
+    font-size: 50px;
+  }
+
+  h2{
+    font-size: 25px;
+  }
+
+  .justify-content-center{
+    position: relative;
+    padding-top: 40px;
+  }
+  
+  .texttopo {
+
+    background-color: rgb(171, 154, 137);
+
+  }
+
+  .texttopo h1 {
+    text-align: center;
+    color: rgb(71, 37, 0);
+  }
+
+  .texttopo h2{
+    text-align: center;
+    color:rgb(71, 37, 0) ;
+    padding-top: 20px;
+  }
+
+  .links {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .cafe {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  #decoration{
+    display: inline;
+    padding-right: 25px;
+    margin-left: 0px;
+  }
+
+  #hyper-text{
+    text-decoration: none !important;
+  }
+
+  #hyper-text:hover{
+    color: #842416;
+  }
+
+  #hyper-text{
+    color: #472500;
+  }
+
+.cidade{
+
+margin: 0px 350px 0px 350px;
+
+}
+
+.b{
+padding-top: 20px;
+}
+
+.b input{
+width: 500px;
+}
+
+.justify-content-center .cadastroC{
+  width: 500px;
+}

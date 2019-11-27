@@ -1,0 +1,137 @@
+body {
+  background-color: rgba(171, 154, 137, 1);
+  font-family: "Comic Sans MS";
+  color: rgba(71, 37, 0, 1);
+  margin-top: 0px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+h4{
+  font-size: 15px;
+}
+
+h2{
+  font-size: 25px;
+}
+
+nav.p-2{
+  position: absolute;
+}
+
+li#b{
+  
+  display: inline;
+  padding-left: 10px;
+  
+}
+
+
+div#titulo {
+  margin: 0px auto 0px auto;
+  background-color: rgba(171, 154, 137, 1);
+  border-bottom: dashed rgba(71, 37, 0, 1);
+
+}
+
+div#titulo h1 {
+  text-align: left;
+  color: rgba(71, 37, 0, 1);
+}
+
+div.titulo2{
+  color: rgba(71, 37, 0, 1);
+  font-size: 18px;
+  text-align: center;
+  display: block;
+}
+
+
+div#bloco {
+  width: 1300px;
+  background-color: rgba(171, 154, 137, 1);
+  margin: 30px auto 0px auto;
+  padding: 30px;
+}
+
+h2 {
+  text-align: left;
+  color: rgba(71, 37, 0, 1);
+  margin-top: 20px;
+
+}
+
+h4 {
+  font-size: 15px;
+  color: rgba(71, 37, 0, 1);
+}
+
+nav.p-2{
+  position: absolute;
+}
+
+nav.menu{
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  border-top: dashed  rgba(71, 37, 0, 1);
+  border-bottom: dashed  rgba(71, 37, 0, 1);
+}
+
+a {
+  color: rgba(132, 36, 22, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+li.button{
+  background-color: brown;
+}
+
+li#a{
+  display: inline;
+  padding-right: 50px;
+}
+
+
+a:link {
+  color: rgba(71, 37, 0, 1);
+}
+
+a:hover {
+  color: rgba(71, 37, 0, 1);
+}
+
+button.btn-login {
+  color: rgba(132, 36, 22, 1);
+}
+
+section#corpo {
+  display: block;
+  width: 550px;
+  float: left;
+}
+
+aside#lateral {
+  display: block;
+  width: 400px;
+  float: right;
+}
+
+footer#rodape {
+  clear: both;
+  padding-top: 200px;
+}
+
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Cafe</display-name>   <!-- por favor não altera nada aqui. ele pode travar o eclipse. aqui e onde faz a comexao entre os jsp e servilet. é as rotas.   -->
+  <servlet>
+    <servlet-name>reg</servlet-name><!-- o nome da rota   -->
+    <servlet-class>jdbc.Registration</servlet-class> <!-- o local do servilet. -->
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>reg</servlet-name><!-- o nome que foi dado -->
+    <url-pattern>/regServelet</url-pattern><!-- o nome que vai ser. e isso se repete toda a vez que vc precisar ligar um servilet em uma jsp -->
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>jdbc.login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/loginServelet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>cli</servlet-name>
+    <servlet-class>jdbc.cliente</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cli</servlet-name>
+    <url-pattern>/cliServelet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>recupara</servlet-name>
+    <servlet-class>jdbc.recupera</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>recupara</servlet-name>
+    <url-pattern>/recuServelet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>produto</servlet-name>
+    <servlet-class>jdbc.produto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>produto</servlet-name>
+    <url-pattern>/produtoServelet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>conpra</servlet-name>
+    <servlet-class>jdbc.conpra</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>conpra</servlet-name>
+    <url-pattern>/conpraServelet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- -->
+</web-app>
